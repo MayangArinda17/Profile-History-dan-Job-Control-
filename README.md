@@ -1,1 +1,28 @@
 # Profile-History-dan-Job-Control-
+
+
+
+
+1. Eksekusi seluruh profile yang ada :
+    a. Edit file  profile  /etc/profile  dan  tampilkan pesan  sebagai berikut  :    echo  “Profile dari /etc/profile”
+
+
+
+
+
+   ![2024-03-25_11-05](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/56bf5068-442e-4d5b-a714-91edfddb6620)
+
+
+
+
+
+
+
+   ![2024-03-25_11-04](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/23313947-7b8b-405d-9460-a502009a98bb)
+
+
+
+
+
+
+   
