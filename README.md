@@ -34,6 +34,10 @@
 
 
    b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu :
+
+
+
+
       /home/stD02001/.bash_profile
 
 
@@ -47,8 +51,69 @@
 
 
 
-   ![2024-03-25_11-09](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/654c13a9-eb78-44be-aa11-b73033fa17ab)
 
+    /home/stD02001/.bash_login
+
+
+
+
+
+
+
+   ![2024-03-25_11-11](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/ac42c257-67cb-41c2-8977-5a200ae56ff5)
+
+
+
+
+
+
+    /home/stD02001/.profile
+
+
+
+
+
+
+   ![2024-03-25_11-13](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/917e9562-cf9a-4f8e-86cf-451dd1d8e2ba)
+
+
+
+
+
+
+  /home/stD02001/.bashrc
+
+
+
+
+
+
+
+  ![2024-03-25_11-17_1](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/c29aa8f9-f20a-4823-8e2c-4b4db4025a81)
+
+
+
+
+
+
+
+  
+
+ 
+
+
+
+
+
+
+   
+
+
+
+
+
+
+   
 
 
 
