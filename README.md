@@ -407,6 +407,284 @@ $ ( ./p1.sh ; ./p3.sh ) &
 
 
 
+![2024-03-25_12-36](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/dd5467a9-7211-41fa-bcc0-6c3287302981)
+
+
+
+
+
+
+
+
+
+
+5. Jobs
+
+   
+a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, 
+
+
+setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil. 
+
+
+
+
+
+
+
+
+
+![2024-03-25_12-38](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/59175aeb-3ee4-49e7-9fad-8563f829a4ec)
+
+
+
+
+
+
+
+
+b. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background 
+sebagai berikut : 
+$ jobs 
+$ find / -print > files 2>/dev/null & 
+$ jobs 
+
+
+
+
+
+
+
+
+
+
+
+
+
+![2024-03-25_12-41](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/3d8c5f06-8ba2-4373-889b-223fe01b5b43)
+
+
+
+
+
+
+
+
+
+
+
+
+c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke 
+background 
+$ fg %1 
+$ bg 
+
+
+
+
+
+
+
+
+
+
+
+
+![2024-03-25_12-43](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/f85af3be-e803-4993-a31b-62403f15bdf6)
+
+
+
+
+
+
+
+
+
+
+
+
+
+d. Stop program background dengan utilitas kil 
+$ ps x 
+$ kill [Nomor PID]
+
+
+
+
+
+
+
+
+
+
+
+
+![2024-03-25_12-44](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/68aae656-8d42-4a47-aa45-a1e953d058e6)
+
+
+
+
+
+
+
+
+
+
+
+
+![2024-03-25_12-44_1](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/d7c918bb-dcc2-46ee-9210-fc9fe3985a92)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. History
+   
+   a. Ganti nilai HISTSIZE dari 1000 menjadi 20 
+$ HISTSIZE=20 
+$ h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ![2024-03-25_12-46](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/072eacd4-c8af-48d1-aeac-93b684c5b643)
+
+
+
+
+
+
+
+
+
+
+   b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir
+dilakukan 
+$ !-5 
+c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer 
+$ !! 
+d. Ulangi instruksi pada history bufer nomor 150 
+$ !150 
+e. Ulangi instruksi dengan prefix “ls” 
+$ !ls
+
+
+
+
+
+
+
+
+
+
+
+![2024-03-25_12-47](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/c91cdab8-7fa3-445a-98e4-3b01a79cd675)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![2024-03-25_12-48](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/e5a33536-7cd5-413b-9226-6f0e486a2493)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![2024-03-25_12-48_1](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/0c64321b-6317-4cf9-9f70-fed08982c62f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![2024-03-25_12-58](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/053e413b-88cc-4947-9f54-e20db9c272c8)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
