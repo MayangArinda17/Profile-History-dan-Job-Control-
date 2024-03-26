@@ -252,19 +252,46 @@ clear
 
 
 
-4. Bash script 
+4. Bash script
+
+   
 a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing : 
+
+
 p1.sh 
+
+
 #! /bin/bash 
+
+
 echo “Program p1” 
-ls –l 
-p2.sh 
-#! /bin/bash 
-echo “Program p2” 
+
+
+ls –l
+
+
+p2.sh
+
+
+#! /bin/bash
+
+
+echo “Program p2”
+
+
 who 
+
+
 p3.sh 
+
+
 #! /bin/bash 
-echo “Program p3” 
+
+
+echo “Program p3”
+
+
+
 ps x
 
 
@@ -316,7 +343,70 @@ ps x
 
 
 
-![2024-03-25_12-23](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/2b43a4db-fc4e-40a9-b75f-a5a5831ca682)
+b. Jalankan script tersebut sebagai berikut : 
+
+
+$ ./p1.sh ; ./p3.sh ; ./p2.sh 
+
+
+$ ./p1.sh & 
+
+
+$ ./p1.sh $ ./p2.sh & ./p3.sh & 
+
+
+$ ( ./p1.sh ; ./p3.sh ) &
+
+
+
+
+
+
+
+
+
+
+![2024-03-25_12-24](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/9520d6dc-8aeb-4455-9484-334104ead757)
+
+
+
+
+
+
+
+
+
+
+![2024-03-25_12-26](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/435f769c-6c51-42d9-a1e9-df4175760792)
+
+
+
+
+
+
+
+
+
+![2024-03-25_12-27](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/053bf530-c0a5-44a3-a33a-39c6dd85cd89)
+
+
+
+
+
+
+
+
+![2024-03-25_12-34](https://github.com/MayangArinda17/Profile-History-dan-Job-Control-/assets/150981696/a2dc0132-f4e1-44e3-84b0-273c8bfcc843)
+
+
+
+
+
+
+
+
+
+
 
 
 
